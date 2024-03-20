@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousal{
+    width: 1500px;
+}
+
+
+.home_image {
+    width: 100%;
+    height:100%;
+}
+.image-list{
+    display: flex;
+    
+}
+
+.below_nav{
+    height: 40px;
+    background-color: rgb(33, 39, 51);
+    color: white;
+   
+}
+.below_nav h6{
+    padding-right: 20px;
+    padding: 8px;
+   
+}
+.below_nav h6:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+    .home_image{
+        margin-right: -80px;
+        width: 1120px;
+    }
+   
+    .below_nav{
+    width: 1120px;
+    }
+    .home_image p{
+        padding:0px ;
+    }
+    
+    
+} 
